@@ -3,7 +3,7 @@ import { TopNav } from '../top-nav/component'
 import { HomeComponent } from '../home/component'
 import { SideBar } from '../side-bar/component'
 
-export const App = React.createClass({
+export const ApplicationComponent = React.createClass({
   render() {
     let html = <div id="application" className='container-fluid'>
       <div className='row'><TopNav /></div>

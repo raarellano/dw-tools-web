@@ -6,7 +6,7 @@ import { IndexLink } from 'react-router';
 export const TopNav = React.createClass({
   render() {
     let html = <nav className="navbar navbar-light bg-faded">
-      <IndexLink to='/' className="navbar-brand">Estereobit</IndexLink>
+      <IndexLink to='/' className="navbar-brand">Dungeon World Tools</IndexLink>
       <ul className="nav navbar-nav pull-xs-right">
         <li className="nav-item">
           <BtnSignup />
